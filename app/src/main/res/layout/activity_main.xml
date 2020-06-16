@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="fill_parent"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:text="Contacts"
+        android:textSize="25sp"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Add"
+        android:textSize="20sp" />
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="350dp"
+        android:id="@+id/simpleList"
+        >
+    </ListView>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimplePhonebook</string>
+    <string-array name="categories">
+        <item>Acquaintance</item>
+        <item>Colleague</item>
+        <item>Family</item>
+        <item>Other</item>
+    </string-array>
+</resources>

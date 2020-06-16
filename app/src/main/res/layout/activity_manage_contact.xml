@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/updateName"
+    android:inputType="textPersonName"
+    android:hint="Input Name"
+    >
+</EditText>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/updatePhone"
+    android:inputType="phone"
+    android:hint="Input Phone"
+    >
+</EditText>
+
+<Spinner
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+<EditText
+    android:id="@+id/updateInfo"
+    android:layout_width="match_parent"
+    android:layout_height="183dp"
+    android:hint="Input Information"
+    android:inputType="textMultiLine"
+    >
+
+</EditText>
+
+<Button
+    android:id="@+id/btnUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update"
+    >
+
+</Button>
+
+<Button
+    android:id="@+id/btnDelete"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    >
+
+</Button>
+</LinearLayout>
